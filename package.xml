@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>Log</members>
+    <members>Log_Test</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>Log__c</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>Log__c</members>
+    <name>CustomTab</name>
+  </types>
+  <types>
+    <members>Log__c-Log Layout</members>
+    <name>Layout</name>
+  </types>
+  <types>
+    <members>Log__c.All</members>
+    <name>ListView</name>
+  </types>
+  <version>45.0</version>
+</Package>
