@@ -1,8 +1,15 @@
 # sfdx-ErrorLoggingFramework
 
+
 A basic error logging framework for Apex, derived from https://github.com/rsoesemann/apex-unified-logging
 
+
 The purpose of this version is to store the logs into a custom object (so that it can be persisted longer that a platform event).
+
+
+To add the conten of this repo to your sfdx project, you can clone this repo and then push it to your scratch org by executing the command 'sfdx force:source:deploy -p <path/to/the/repo>',followed by 'sfdx force:source:retrieve -x  <path/to/the/repo/package.xml>'
+ to retrieve the metadata in your sfdx project folder.
+
 
 ## Log Public Methods:
 ```apex
