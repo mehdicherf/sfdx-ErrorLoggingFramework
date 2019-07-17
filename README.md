@@ -1,6 +1,7 @@
 # sfdx-ErrorLoggingFramework
 
 A basic error logging framework for Apex, derived from https://github.com/rsoesemann/apex-unified-logging
+
 The purpose of this version is to store the logs into a custom object (so that it can be persisted longer that a platform event).
 
 ## Log Public Methods::
