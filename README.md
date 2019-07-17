@@ -94,7 +94,7 @@ try{
 }
 ```
 
-### When Using a try-catch block That can be related to a record or job ID:
+### When Using a try-catch block that can be related to a record or job ID:
 ```apex
 try{
     Update myRecord;
