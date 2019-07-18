@@ -7,7 +7,7 @@ A basic error logging framework for Apex, derived from https://github.com/rsoese
 The purpose of this version is to store the logs into a custom object (so that it can be persisted longer that a platform event).
 
 
-To add this error logging framework to your sfdx project, you can clone this repo and then push it to your scratch org by executing the command `sfdx force:source:deploy -p <path/to/the/repo>`,followed by `sfdx force:source:retrieve -x  <path/to/the/repo/package.xml>`
+To add this error logging framework to your sfdx project, you can clone this repo and then push it to your scratch org by executing the command `sfdx force:source:deploy -p <path/to/the/repo>`, followed by `sfdx force:source:retrieve -x  <path/to/the/repo/package.xml>`
  to retrieve the metadata in your sfdx project folder.
 
 
