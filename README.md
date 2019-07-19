@@ -25,7 +25,7 @@ Database.SaveResult[] srList = Database.insert(accountList, false);
 Log.error(srList);
 ```
 
-### When using a try-catch block:
+### To log a single error:
 ```apex
 try{
     //try something complex
@@ -35,7 +35,7 @@ try{
 }
 ```
 
-### To log a single error:
+### To log a single error related to a record or job Id:
 ```apex
 try{
     Update myRecord;
