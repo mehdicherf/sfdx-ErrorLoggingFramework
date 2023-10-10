@@ -1,3 +1,8 @@
+**Oct'2024 update: I don't recommend using this framework anymore. I don't maintain it.**
+
+**A better alternative is to use Nebula Logger for Salesforce: https://github.com/jongpie/NebulaLogger**
+
+
 # sfdx-ErrorLoggingFramework
 
 
@@ -44,3 +49,4 @@ try{
     Log.error(pokemon.getMessage(), myRecord.Id)
 }
 ```
+~~
